@@ -334,13 +334,14 @@ nav ul li:hover{
   width:600px;
   height:300px;
   position: absolute;
-  top:50%;left: 35%;
+  top:50%;left: 50%;
   background: #333;
   color:#fff;
   font-weight: bold;
   text-align: center;
   font-size:30px;
   padding:30px;
+  transform: translate(-50%,-50%);
 }
 #modal-inner button{
   position: absolute;
