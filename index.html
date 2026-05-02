@@ -134,7 +134,7 @@
               <p><span>상세설명 : </span><br>맛집 리뷰 / 맛집 탐방 커뮤니티 모바일 어플입니다.<br>
                 react를 주언어로 개발하여 cloud type으로 배포되었습니다.
 
-                <br><a href="#"><b>[프로젝트 기획서 보기]</b></a>
+                <!-- <br><a href="#"><b>[프로젝트 기획서 보기]</b></a> -->
 
               </p>
               <!-- <p><span></span></p> -->
@@ -152,7 +152,7 @@
       <h2>PROJECT2</h2>
       <div class="project">
         <div class="slide">
-          <div class="slide-list">
+          <div class="slide-list2">
             <div class="txt-box">
               <h3>CROCS 쇼핑몰 리뉴얼</h3>
               <p><span>내용 : </span>CROCS 쇼핑몰 리뉴얼(반응형)</p>
@@ -164,18 +164,18 @@
                   href="https://jh0000.dothome.co.kr/crocs/index.php">https://jh0000.dothome.co.kr/crocs/index.php</a><br><span><a
                     href="https://jh0000.dothome.co.kr/crocs/admin/admin_main.php">https://jh0000.dothome.co.kr/crocs/admin(관리자
                     페이지)</a></span></p>
-              <div class="slide-left"><button>1/2 ▶</button></div>
+              <div class="slide-left2"><button>1/2 ▶</button></div>
             </div>
             <div class="txt-box">
               <h3>CROCS 쇼핑몰 리뉴얼</h3>
               <p><span>상세설명 : </span><br>
                 crocs 쇼핑몰 리뉴얼 프로젝트 입니다.
-                php를 주언어로 개발하여<br> 주요 기능은 회원관리, 장바구니 등을 구현하였습니다. <br>
+                php를 주언어로 개발하여<br> 주요 기능은 상품관리, 장바구니 등을 구현하였습니다. <br>
                 닷홈 호스팅 서비스를 이용하여 배포하였습니다.
-                <br><a href="#"><b>[프로젝트 기획서 보기]</b></a>
+                <!-- <br><a href="#"><b>[프로젝트 기획서 보기]</b></a> -->
               </p>
 
-              <div class="slide-right"><button>◀ 2/2</button></div>
+              <div class="slide-right2"><button>◀ 2/2</button></div>
             </div>
           </div>
         </div>
@@ -197,7 +197,7 @@
               src="./images/Group 9.png" alt="목업이미지"></a>
         </div>
         <div class="slide">
-          <div class="slide-list">
+          <div class="slide-list3">
             <div class="txt-box">
               <h3>LG생활건강 웹사이트 리뉴얼</h3>
               <p><span>내용 : </span>LG생활건강 웹사이트를 원페이지 랜딩 형식으로 리뉴얼</p>
@@ -206,16 +206,16 @@
               <p><span>유형 : </span>개인 프로젝트</p>
               <p class="txt-url"><span>URL : </span><a
                   href="https://ijh950809-dotcom.github.io/p1_lg/">https://ijh950809-dotcom.github.io/p1_lg/</a></p>
-              <div class="slide-left"><button>1/2 ▶</button></div>
+              <div class="slide-left3"><button>1/2 ▶</button></div>
             </div>
             <div class="txt-box">
               <h3>LG생활건강 웹사이트 리뉴얼</h3>
               <p><span>상세설명 : </span><br>
                 LG생활건강 웹사이트를 원페이지 랜딩 형식으로 리뉴얼 하였습니다.
                 <br>Git hub를 통해 배포하였습니다.
-                <br><a href="#"><b>[프로젝트 기획서 보기]</b></a>
+                <!-- <br><a href="#"><b>[프로젝트 기획서 보기]</b></a> -->
               </p>
-              <div class="slide-right"><button>◀ 2/2</button></div>
+              <div class="slide-right3"><button>◀ 2/2</button></div>
             </div>
           </div>
         </div>
@@ -262,7 +262,21 @@
       $('.slide-list').css('left', '0');
     })
     //
+    $('.slide-left2').click(function () {
+      $('.slide-list2').css('left', '-500px');
+    })
+    $('.slide-right2').click(function () {
+      $('.slide-list2').css('left', '0');
+    })
     //
+    $('.slide-left3').click(function () {
+      $('.slide-list3').css('left', '-500px');
+    })
+    $('.slide-right3').click(function () {
+      $('.slide-list3').css('left', '0');
+    })
+    //
+
     const about = document.querySelector('.about-box p');
 
     const aboutbox = new IntersectionObserver((entries) => {

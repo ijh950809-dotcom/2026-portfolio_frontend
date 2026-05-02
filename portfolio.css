@@ -460,7 +460,9 @@ nav ul li:hover {
 
 }
 
-.slide-list {
+.slide-list,
+.slide-list2,
+.slide-list3 {
   top: 0;
   left: 0;
   width: 1000px;
@@ -482,7 +484,11 @@ nav ul li:hover {
 }
 
 .slide-right,
-.slide-left {
+.slide-left,
+.slide-right2,
+.slide-left2,
+.slide-right3,
+.slide-left3 {
   position: absolute;
   width: 500px;
   height: 30px;
@@ -491,7 +497,9 @@ nav ul li:hover {
 }
 
 
-.slide-left button {
+.slide-left button,
+.slide-left2 button,
+.slide-left3 button {
   position: absolute;
   top: 0px;
   right: 30px;
@@ -503,7 +511,9 @@ nav ul li:hover {
   border-radius: 3px;
 }
 
-.slide-right button {
+.slide-right button,
+.slide-right2 button,
+.slide-right3 button {
   position: absolute;
   top: 0px;
   right: 30px;
